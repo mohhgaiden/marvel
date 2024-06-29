@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "237939334695",
+    "project_id": "marvel-e1539",
+    "storage_bucket": "marvel-e1539.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:237939334695:android:38471b10457356a123f802",
+        "android_client_info": {
+          "package_name": "com.moh.marval"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANFpPdLGoiow7dsMo6h2kjCmmo92ELVmM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

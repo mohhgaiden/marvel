@@ -1,0 +1,60 @@
+name: marval
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+  
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  flutter_native_splash: ^2.4.0
+  cached_network_image: 
+  firebase_core: 
+  firebase_auth: 
+  firebase_messaging: 
+  flutter_bloc:
+  keyboard_actions:
+  freezed_annotation:
+  dio:
+  url_launcher: 
+  shared_preferences:
+  get:
+  formz:
+
+flutter_native_splash:
+  android: true
+  ios: true
+  web: false
+  color: "#F0141E"
+  image: "assets/images/marvel.png"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  freezed:
+  build_runner:
+  json_serializable: 
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/marvel1.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/login/
+    - assets/images/home/
+    - assets/images/state/
+    
+  fonts:
+    - family: RobotoThin
+      fonts:
+        - asset: assets/fonts/Roboto-Thin.ttf
